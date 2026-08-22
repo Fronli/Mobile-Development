@@ -26,6 +26,7 @@ import androidx.compose.ui.unit.dp
 import com.example.compose_test.ui.theme.ComposetestTheme
 import android.content.res.Configuration
 import androidx.compose.ui.draw.rotate
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 
 class MainActivity : ComponentActivity() {
@@ -72,10 +73,17 @@ fun HelloComposeTheme() {
                 style = MaterialTheme.typography.headlineLarge,
                 textAlign = TextAlign.Center
             )
+            Spacer(modifier = Modifier.height(8.dp))
             Text(
                 text = "NIM: 01082240018",
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+            Spacer(modifier = Modifier.height(6.dp))
+            Text(
+                text = "FAIDAS / Informatics",
+                style = MaterialTheme.typography.bodyLarge,
+                fontWeight = FontWeight.Bold
             )
         }
     }
