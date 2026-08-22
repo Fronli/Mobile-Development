@@ -60,11 +60,10 @@ fun HelloComposeTheme() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Image(
-                painter = painterResource(id = R.drawable.profile),
+                painter = painterResource(id = R.drawable.profile_picture),
                 contentDescription = "Foto profil",
                 modifier = Modifier
                     .size(120.dp)
-                    .rotate(270f)
                     .clip(CircleShape)
             )
             Spacer(modifier = Modifier.height(16.dp))
