@@ -1,15 +1,36 @@
+# ==========================================
+# Android Studio & Gradle Build Trash
+# ==========================================
 *.iml
-.gradle
+.gradle/
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea/
 .DS_Store
-/build
-/captures
+
+# Folder build & cache lokal (ini yang ukurannya puluhan MB)
+/build/
+/app/build/
+/.gradle/
+/.navigation/
+/.caches/
+
+# Output APK/AAB dan Keystore
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.keystore
+*.jks
+
+# Android Studio internal generated files
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/gradle.xml
+/.idea/assetWizardSettings.xml
+/.idea/dictionaries
+/.idea/libraries
+/.idea/caches
+/captures/
 .externalNativeBuild
-.cxx
-local.properties
+.cxx/
