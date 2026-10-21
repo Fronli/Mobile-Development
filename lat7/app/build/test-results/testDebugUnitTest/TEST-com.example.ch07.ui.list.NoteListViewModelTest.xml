@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ch07.ui.list.NoteListViewModelTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-07T14:03:32" hostname="F369" time="0.084">
+  <properties/>
+  <testcase name="hapus lalu batalkan mengembalikan catatan" classname="com.example.ch07.ui.list.NoteListViewModelTest" time="0.045"/>
+  <testcase name="onUndoDismissed mengosongkan recentlyDeleted" classname="com.example.ch07.ui.list.NoteListViewModelTest" time="0.007"/>
+  <testcase name="filter tag menyaring catatan dan klik lagi melepas filter" classname="com.example.ch07.ui.list.NoteListViewModelTest" time="0.007"/>
+  <testcase name="hapus menghilangkan catatan dari daftar" classname="com.example.ch07.ui.list.NoteListViewModelTest" time="0.005"/>
+  <testcase name="catatan yang disematkan tampil paling atas" classname="com.example.ch07.ui.list.NoteListViewModelTest" time="0.005"/>
+  <testcase name="togglePin menyematkan lalu melepas" classname="com.example.ch07.ui.list.NoteListViewModelTest" time="0.006"/>
+  <testcase name="pencarian ditunda 300 ms lalu memfilter judul atau isi" classname="com.example.ch07.ui.list.NoteListViewModelTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
